@@ -169,3 +169,28 @@ html{scroll-behavior: smooth;}
         background-color: rgba(0,0,0,.8);
         padding: 3% 0;
     }
+    .scrolling{
+        position: sticky;
+        bottom: 20px;
+        margin-right: 20px;
+        float: right;
+        border-radius: 50%;
+        color: #fff;
+        height: 40px;
+        width: 40px;
+        background: darkcyan;
+        padding: 11px 15px;
+        opacity: 0;
+        transition: .8s all;
+    }
+    .scrolling a{color: #fff;}
+    .scrollToTop {
+        opacity: 1;
+    }
+    footer {
+        background-color: #eee;
+    }
+    footer img {
+        width: 100%;
+    }
+    .footerDiv {width: 20%;}
