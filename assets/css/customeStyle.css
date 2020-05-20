@@ -194,3 +194,7 @@ html{scroll-behavior: smooth;}
         width: 100%;
     }
     .footerDiv {width: 20%;}
+
+    .owl-carousel {
+        z-index: 0;
+    }
