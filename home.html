@@ -12,6 +12,9 @@
 <!-- fontawsome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
+<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
 <!-- local css -->
 <link rel="stylesheet" href="assets/css/customeStyle.css">
 <link rel="stylesheet" href="assets/css/header.css">
@@ -116,7 +119,7 @@
         </div>
         <section class="airportSider">
           <!-- Airport Slider Area -->
-          <div class="">
+          <div class="owl-carousel">
             <div class="item">
               <img src="./assets/img/canopy1.jpg" alt="" class="img-fluid">
             </div>
@@ -181,8 +184,29 @@
 <script src="./assets/js/"></script>
 <script src="./assets/js/custome.js"></script>
 
+<script src="jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+
 <script>
-    new WOW().init();
+    $(document).ready(function(){
+      $(".owl-carousel").owlCarousel();
+    });
+
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+        items:4,
+        loop:true,
+        margin:10,
+        autoplay:true,
+        autoplayTimeout:1000,
+        autoplayHoverPause:true
+    });
+    $('.play').on('click',function(){
+        owl.trigger('play.owl.autoplay',[1000])
+    })
+    $('.stop').on('click',function(){
+        owl.trigger('stop.owl.autoplay')
+    })
 </script>
 
 </body>
