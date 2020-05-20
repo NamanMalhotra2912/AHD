@@ -1,0 +1,156 @@
+*, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{scroll-behavior: smooth;}
+
+.nextSections{
+    padding: 5% 0;
+    overflow: hidden;
+}
+
+/* header stipe */
+.mainDiv{
+    z-index: 1;
+    background-color: #008b8b4f;
+    padding: 20px;
+    overflow: hidden;
+    transition: 1s all;
+    position: fixed;
+}
+.socialMedia {
+    display: flex;
+    justify-content: left;
+    float: left;
+}
+.topIcon {
+    color: #fff;
+}
+.topIconLink {
+    margin: 0 20px;
+}
+#nav{
+    float: right;
+}
+#nav>li {
+    float: left;
+    padding: 0 5%;
+    transition: 0.8s all;
+}
+#nav>li:hover{
+    background-color: #016565;
+}
+#nav>li>a {
+    color: #fff;
+}
+.bgSlider{
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 39.8em;
+    animation: slider 20s ease-in-out infinite;
+}
+
+@keyframes slider {
+    0%{
+        background-image: url(../img/canopy3.jpg);
+    }
+    50%{
+        background-image: url(../img/IMG_0209.jpg);
+    }
+    100%{
+        background-image: url(../img/image.jpg);
+    }
+}
+
+.bgLyr {
+    background-color: rgba(0,0,0,.5);
+    height: 100%;
+}
+.fixed {
+    background-color: darkcyan;
+    top:0;
+    left:0;
+    width: 100%; 
+    padding: 10px!important;
+}
+
+.logo {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo img{
+    width: 100%;
+    margin-top: 30%;
+}
+
+.tagLine{
+    color: #fff;
+    margin: 5% 0;
+}
+.contactBody,  .addCol {
+    display: inline-block;
+    float: left;
+}
+.addCol p {
+    margin: 0;
+}
+.addColIcon {
+    padding: 7px 0;
+    text-align: center;
+}
+.bodyText{
+    position: relative;
+}
+.readBtn{
+    padding: 5px 20px;
+    background: aquamarine;
+    transition: 08x all;
+}
+.readBtn:hover {
+    background-color: cadetblue;
+    color: #fff;
+}
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+    
+    body { margin: 0; } 
+    div#slider { overflow: hidden; }
+    div#slider figure img { width: 20%; float: left; }
+    div#slider figure { 
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 20s slidy infinite; 
+    }
+    .single-airport-item{
+        display: inline-block;
+    }
+
+    .item{
+        width: 10%;
+        float: left;
+    }
+    #contactUs{
+        background-image: url(../img/ThinkstockPhotos-503945627.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
