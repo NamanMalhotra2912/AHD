@@ -14,8 +14,6 @@
 
 <!-- local css -->
 <link rel="stylesheet" href="assets/css/customeStyle.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/scss/style.scss">
 <link rel="stylesheet" href="assets/css/header.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 
@@ -33,28 +31,17 @@
       <!-- Classy Menu -->
       <nav class="classy-navbar justify-content-between" id="alimeNav">
 
-        <!-- Navbar Toggler -->
-        <div class="classy-navbar-toggler">
-          <span class="navbarToggler"><span></span><span></span><span></span></span>
-        </div>
-
         <!-- Menu -->
         <div class="classy-menu">
-          <!-- Menu Close Button -->
-          <div class="classycloseIcon">
-              <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-          </div>
           <!-- Nav Start -->
           <div class="classynav">
-              <ul id="nav" class="col-7">
-                  <!-- <li class="active"><a href="./index.html">Home</a></li> -->
-                  
-                  <li><a href="#aboutUs">About Us</a></li>
-                  <li><a href="#gal">Services</a></li>
-                  <li><a href="#projects">Projects</a></li>
-                  <li><a href="#contactUs">Connect Us</a>
-                  </li>
-              </ul>
+            <ul id="nav" class="col-7">              
+              <li><a href="#aboutUs">About Us</a></li>
+              <li><a href="#gal">Services</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contactUs">Connect Us</a>
+              </li>
+            </ul>
           <!-- Nav End -->
           </div>
         </div>
@@ -155,29 +142,31 @@
   </div>
 
   <!-- contact -->
-  <div class="nextSections" id="contactUs">
-    <div class="container">
-      <div class="headerText py-5 text-center">
-        <h4><u>Connect With Us</u></h4>
-      </div>
-      <div class="col-6 text-center contactBody">
-        <div class="bodyText text-left">
-          <h5>
-            <strong>For any queries, you can reach to us directly.</strong>
-          </h5>
-          <div class="col-1 addCol addColIcon"><i class="far fa-envelope"></i></div>
-          <div class="col-11 addCol"><p><a href="mailto:amitkumar2234@gmail.com">amitkumar2234@gmail.com</a></p></div>
-          <div class="col-1 addCol addColIcon"><i class="fas fa-mobile-alt"></i></div>
-          <div class="col-11 addCol"><p><a href="tel:+91-965-433-7771">Phone : +91-965-433-7771</a></p></div>
-          <div class="col-1 addCol addColIcon"><i class="fas fa-map-marked-alt"></i></div>
-          <div class="col-11 addCol">
-            <p>H.No 225/7, Bhim Nagar,</p>
-            <p> Near Chander Diary, Gurgaon, 122001. </p>
+  <div id="contactUs">
+    <div class="bgLyrCont">
+      <div class="container text-white">
+        <div class="headerText py-5 text-center">
+          <h4><u>Connect With Us</u></h4>
+        </div>
+        <div class="col-6 text-center contactBody">
+          <div class="bodyText text-left">
+            <h5 class="mb-5">
+              <strong>For any queries, you can reach to us directly.</strong>
+            </h5>
+            <div class="col-1 addCol addColIcon"><i class="far fa-envelope"></i></div>
+            <div class="col-11 addCol"><p><a href="mailto:amitkumar2234@gmail.com">amitkumar2234@gmail.com</a></p></div>
+            <div class="col-1 addCol addColIcon"><i class="fas fa-mobile-alt"></i></div>
+            <div class="col-11 addCol"><p><a href="tel:+91-965-433-7771">Phone : +91-965-433-7771</a></p></div>
+            <div class="col-1 addCol addColIcon"><i class="fas fa-map-marked-alt"></i></div>
+            <div class="col-11 addCol">
+              <p>H.No 225/7, Bhim Nagar,</p>
+              <p> Near Chander Diary, Gurgaon, 122001. </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-6 contactBody">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.365295657015!2d77.01910071455522!3d28.468543582482763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19d299b0b5cb%3A0xa81f3fb482215b96!2sLink%20Rd%2C%20Bhim%20Nagar%2C%20Sector%206%2C%20Gurugram%2C%20Haryana%20122006!5e0!3m2!1sen!2sin!4v1589820129008!5m2!1sen!2sin" width="600" height="272" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div class="col-6 contactBody">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.365295657015!2d77.01910071455522!3d28.468543582482763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19d299b0b5cb%3A0xa81f3fb482215b96!2sLink%20Rd%2C%20Bhim%20Nagar%2C%20Sector%206%2C%20Gurugram%2C%20Haryana%20122006!5e0!3m2!1sen!2sin!4v1589820129008!5m2!1sen!2sin" width="600" height="272" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
       </div>
     </div>
   </div>
@@ -189,22 +178,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <!-- fontawsome -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
-
-<!-- local js -->
-<!-- custom -->
-<script src="assets/js/custome.js"></script>
-<!-- jQuery 2.2.4 -->
-<script src="assets/js/jquery.min.js"></script>
-<!-- Popper -->
-<script src="assets/js/popper.min.js"></script>
-<!-- Bootstrap -->
-<script src="assets/js/bootstrap.min.js"></script>
-<!-- All Plugins -->
-<script src="assets/js/alime.bundle.js"></script>
-<!-- Active -->
-<script src="assets/js/default-assets/active.js"></script>
-
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="./assets/js/"></script>
+<script src="./assets/js/custome.js"></script>
 
 <script>
     new WOW().init();

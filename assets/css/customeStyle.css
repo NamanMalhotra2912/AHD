@@ -37,10 +37,13 @@ html{scroll-behavior: smooth;}
     float: left;
     padding: 0 5%;
     transition: 0.8s all;
+    list-style: none;
 }
+#nav>li>a{text-decoration: none;}
 #nav>li:hover{
-    background-color: #016565;
+    background-color: #3e9898;
 }
+#nav {margin-bottom: 0!important;}
 #nav>li>a {
     color: #fff;
 }
@@ -91,6 +94,9 @@ html{scroll-behavior: smooth;}
 .tagLine{
     color: #fff;
     margin: 5% 0;
+}
+.addCol{
+    height: 50px;
 }
 .contactBody,  .addCol {
     display: inline-block;
@@ -150,7 +156,16 @@ html{scroll-behavior: smooth;}
     #contactUs{
         background-image: url(../img/ThinkstockPhotos-503945627.jpg);
         background-attachment: fixed;
-        background-position: center;
+        background-position: inherit;
         background-repeat: no-repeat;
         background-size: cover;
+        overflow: hidden;
+        height: 30em;
+    }
+    #contactUs p,#contactUs h5,#contactUs h4, #contactUs a{color: #fff;}
+    .bgLyrCont {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0,0,0,.8);
+        padding: 3% 0;
     }
