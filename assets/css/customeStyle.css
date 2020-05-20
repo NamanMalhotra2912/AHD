@@ -150,7 +150,7 @@ html{scroll-behavior: smooth;}
     }
 
     .item{
-        width: 10%;
+        /* width: 10%; */
         float: left;
     }
     #contactUs{

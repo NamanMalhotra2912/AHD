@@ -5,3 +5,4 @@ $(window).scroll(function(){
     if (scroll >= 64) sticky.addClass('fixed');
     else sticky.removeClass('fixed');
 });
+
