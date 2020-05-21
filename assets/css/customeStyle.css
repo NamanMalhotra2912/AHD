@@ -20,9 +20,24 @@ html{scroll-behavior: smooth;}
     position: fixed;
 }
 .socialMedia {
-    display: flex;
-    justify-content: left;
-    float: left;
+    text-align: right;
+    background-color: darkcyan;
+    padding: 15px;
+}
+.nav-item {
+    float: right;
+}
+.socialMedia i {
+    font-size: 20px;
+}
+.navbar{
+    background-color: transparent;
+}
+.nav-link {
+    color: #fff!important;
+}
+.navbar-brand img {
+    width: 35%;
 }
 .topIcon {
     color: #fff;
@@ -32,9 +47,10 @@ html{scroll-behavior: smooth;}
 }
 #nav{
     float: right;
+    padding: 0;
 }
 #nav>li {
-    float: left;
+    float: right;
     padding: 0 5%;
     transition: 0.8s all;
     list-style: none;
@@ -79,6 +95,9 @@ html{scroll-behavior: smooth;}
     width: 100%; 
     padding: 10px!important;
 }
+.fixedLogo{
+    width: 15%;
+}
 
 .logo {
     width: 30%;
@@ -94,6 +113,7 @@ html{scroll-behavior: smooth;}
 .tagLine{
     color: #fff;
     margin: 5% 0;
+    padding: 30% 0;
 }
 .addCol{
     height: 50px;
@@ -188,13 +208,22 @@ html{scroll-behavior: smooth;}
         opacity: 1;
     }
     footer {
-        background-color: #eee;
+        background: burlywood;
+    height: 3em;
+    display: flex;
+    padding: 12px 0;
     }
-    footer img {
-        width: 100%;
+    .airClass {
+        list-style: none;
+        font-weight: bold;
+        font-size: 22px;
+        padding: 5px;
     }
-    .footerDiv {width: 20%;}
-
-    .owl-carousel {
-        z-index: 0;
+    .footerNav{
+        margin: 0;
+        font-weight: bold;
+        text-align: center;
+    }
+    .footerNav a {
+        color: #000;
     }

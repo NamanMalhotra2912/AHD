@@ -24,33 +24,37 @@
 
 <body>
   <!-- header stip -->
+  <div class="socialMedia col-12">
+    <a href="" class="topIconLink"><i class="far fa-envelope topIcon" title="Send Us A Mail"></i></a>
+    <a href="" class="topIconLink"><i class="fas fa-map-marker-alt topIcon" title="Find Us Here"></i></a>
+    <a href="" class="topIconLink"><i class="fas fa-phone-alt topIcon" title="Call Us"></i></a>
+  </div>
   <div class="mainDiv sticky col-12">
-    <div class="socialMedia col-3">
-      <a href="" class="topIconLink"><i class="far fa-envelope topIcon" title="Send Us A Mail"></i></a>
-      <a href="" class="topIconLink"><i class="fas fa-map-marker-alt topIcon" title="Find Us Here"></i></a>
-      <a href="" class="topIconLink"><i class="fas fa-phone-alt topIcon" title="Call Us"></i></a>
-    </div>
-    <div class="navDIv col-9 float-right">
+    <div class="navDIv col-12 float-right">
       <!-- Classy Menu -->
-      <nav class="classy-navbar justify-content-between" id="alimeNav">
-
-        <!-- Menu -->
-        <div class="classy-menu">
-          <!-- Nav Start -->
-          <div class="classynav">
-            <ul id="nav" class="col-7">              
-              <li><a href="#aboutUs">About Us</a></li>
-              <li><a href="#gal">Services</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contactUs">Connect Us</a>
-              </li>
-            </ul>
-          <!-- Nav End -->
-          </div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand stickyLogo" href="#"><img src="./assets/img/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav mr-auto col-12 mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#aboutUs">About Us</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Contact_Us.html">Contact Us</a>
+            </li>
+          </ul>
         </div>
       </nav>
     </div>
-    <div class="contact"></div>
   </div>
   <!-- header stip -->
   
@@ -59,11 +63,11 @@
     <div class="bgSlider" id="top">
       <div class="bgLyr">
 
-        <div class="logo">
+        <!-- <div class="logo">
           <img src="assets/img/logo.png" alt="logo.png" id="logo">
-        </div>
+        </div> -->
 
-        <h5 class="tagLine col-12 text-center">Welcome to AHD Enterprises, India. This is running line</h5>
+        <h1 class="tagLine col-12 text-center">Welcome to AHD Enterprises, India. </h1>
       </div>
     </div>
   </header>
@@ -76,9 +80,9 @@
         <h4><u>About Us</u></h4>
       </div>
       <div class="pt-5">
-        <div class="col-6 float-left">
+        <div class="col-6 col-xs-12 float-left">
           <div class="headerText">
-            <h4>Welcome to AHD Enterprises, India. This is running line.</h4>
+            <h4>Welcome to AHD Enterprises, India.</h4>
           </div>
           <div class="bodyText">
             <h6>
@@ -88,7 +92,7 @@
             <a href="./aboutus.html" class="readBtn">Read More</a>
           </div>
         </div>
-        <div class="col-6 float-left" style="height: 18em;overflow: hidden;;">
+        <div class="col-6 col-xs-12 float-left" style="height: 18em;overflow: hidden;;">
           <div id="slider">
             <figure>
               <img src="./assets/img/canopy1.jpg" alt>
@@ -106,7 +110,7 @@
   <!-- projects -->
   <div class="nextSections" id="projects">
     <div class="container">
-      <div class="col-12 text-center">
+      <div class="col-12  col-sm-12 col-xs-12 text-center">
         <div class="headerText pb-5">
           <h4><u>Our Projects</u></h4>
         </div>
@@ -119,7 +123,7 @@
         </div>
         <section class="airportSider">
           <!-- Airport Slider Area -->
-          <div class="owl-carousel">
+          <!-- <div class="owl-carousel">
             <div class="item">
               <img src="./assets/img/canopy1.jpg" alt="" class="img-fluid">
             </div>
@@ -131,12 +135,36 @@
             </div>
             <div class="item">
               <img src="./assets/img/canopy1.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="item">
               <img src="./assets/img/canopy1.jpg" alt="" class="img-fluid">
             </div>
             <div class="item">
               <img src="./assets/img/canopy1.jpg" alt="" class="img-fluid">
+            </div>
+          </div> -->
+          <div class="prt">
+            <!-- <div class="prtImg">
+              <img src="./assets/img/canopy2.png" alt="">
+            </div>
+            <div class="prtImg">
+              <img src="./assets/img/canopy4.jpg" alt="">
+            </div> -->
+            <div class="col-6 float-left">
+              <div class="col-12 container">
+                <ul class=" text-center">
+                  <li class="airClass">Jaipur Airport</li>
+                  <li class="airClass">Udaipur Airport</li>
+                  <li class="airClass">Lucknow Airport</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-6 float-right">
+              <div class="col-12 container">
+                <ul class="text-center">
+                  <li class="airClass">Bengaluru Airport</li>
+                  <li class="airClass">Trichy Airport</li>
+                  <li class="airClass">Bhuvneshwar Airport</li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
@@ -151,7 +179,7 @@
         <div class="headerText py-5 text-center">
           <h4><u>Connect With Us</u></h4>
         </div>
-        <div class="col-6 text-center contactBody">
+        <div class="col-6 text-center contactBody col-xs-12">
           <div class="bodyText text-left">
             <h5 class="mb-5">
               <strong>For any queries, you can reach to us directly.</strong>
@@ -167,7 +195,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6 contactBody">
+        <div class="col-6 col-xs-12 contactBody">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.365295657015!2d77.01910071455522!3d28.468543582482763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19d299b0b5cb%3A0xa81f3fb482215b96!2sLink%20Rd%2C%20Bhim%20Nagar%2C%20Sector%206%2C%20Gurugram%2C%20Haryana%20122006!5e0!3m2!1sen!2sin!4v1589820129008!5m2!1sen!2sin" width="600" height="272" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
       </div>
@@ -175,11 +203,17 @@
   </div>
 
   <footer>
-    <div class="col-4 footerDiv">
-      <img src="./assets/img/Picture1.png" alt="">
+    <div class="col-4  footerNav">
+      <a href="./index.html">HOME</a>
+    </div>
+    <div class="col-4 footerNav">
+      <a href="href://mailto:amitkumar2234@gmail.com">SEND A MAIL</a>
+    </div>
+    <div class="col-4  footerNav">
+      <a href="./Contact_Us.html">CONTACT US</a>
     </div>
   </footer>
-
+  
   <div class="scrollUp scrolling">
     <a href="#top"><i class="fas fa-angle-up"></i></a>
   </div>
