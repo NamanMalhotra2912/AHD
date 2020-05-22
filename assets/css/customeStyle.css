@@ -74,13 +74,13 @@ html{scroll-behavior: smooth;}
 
 @keyframes slider {
     0%{
-        background-image: url(../img/canopy3.jpg);
+        background-image: url(../img/1.jpg);
     }
     50%{
-        background-image: url(../img/IMG_0209.jpg);
+        background-image: url(../img/2.jpg);
     }
     100%{
-        background-image: url(../img/image.jpg);
+        background-image: url(../img/3.jpg);
     }
 }
 
@@ -112,8 +112,8 @@ html{scroll-behavior: smooth;}
 
 .tagLine{
     color: #fff;
-    margin: 5% 0;
-    padding: 30% 0;
+    
+    padding: 20% 0;
 }
 .addCol{
     height: 50px;
@@ -134,7 +134,7 @@ html{scroll-behavior: smooth;}
 }
 .readBtn{
     padding: 5px 20px;
-    background: aquamarine;
+    background: #b0e2f1;
     transition: 08x all;
 }
 .readBtn:hover {
