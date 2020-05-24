@@ -37,7 +37,7 @@ html{scroll-behavior: smooth;}
     color: #fff!important;
 }
 .navbar-brand img {
-    width: 35%;
+    width: 30%;
 }
 .topIcon {
     color: #fff;
@@ -96,7 +96,7 @@ html{scroll-behavior: smooth;}
     padding: 10px!important;
 }
 .fixedLogo{
-    width: 15%;
+    width: 35%;
 }
 
 .logo {
@@ -188,6 +188,10 @@ html{scroll-behavior: smooth;}
         width: 100%;
         background-color: rgba(0,0,0,.8);
         padding: 3% 0;
+    }
+    .navbar-nav{
+        position: absolute;
+        right: 0;
     }
     .scrolling{
         position: sticky;

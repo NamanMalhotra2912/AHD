@@ -4,6 +4,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>AHD INDIA</title>
 
+<meta charset="UTF-8">
+<meta name="description" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 <!-- external cdn links for styling -->
 <!-- bootstrap -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -24,7 +29,7 @@
 
 <body>
   <!-- header stip -->
-  <div class="socialMedia col-12">
+  <div class="socialMedia socialMediaCont col-12">
     <a href="" class="topIconLink"><i class="far fa-envelope topIcon" title="Send Us A Mail"></i></a>
     <a href="" class="topIconLink"><i class="fas fa-map-marker-alt topIcon" title="Find Us Here"></i></a>
     <a href="" class="topIconLink"><i class="fas fa-phone-alt topIcon" title="Call Us"></i></a>
@@ -33,14 +38,17 @@
     <div class="navDIv col-12 float-right">
       <!-- Classy Menu -->
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand stickyLogo" href="#"><img style="width: 20%;" src="./assets/img/logo.png" alt=""></a>
+        <a class="navbar-brand col-lg-2 col-2 stickyLogo" href="#"><img style="width: 70%;" src="./assets/img/logo.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav mr-auto col-12 mt-2 mt-lg-0">
+          <ul class="navbar-nav mr-auto col-lg-4">
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact_Us.html">Contant US</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="ServicesAm.html">Services</a>
@@ -48,15 +56,12 @@
             <li class="nav-item">
               <a class="nav-link" href="projects.html">Projects</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Contact_Us.html">Contact Us</a>
-            </li>
+            
           </ul>
         </div>
       </nav>
     </div>
   </div>
-  <!-- header stip -->
 
   <!-- about us -->
   <div class="nextSections" id="aboutUs">
@@ -108,10 +113,6 @@ AHD INDIA is doing projects under Make in India concept by Indian Government. Th
     <a href="Contact_Us.html">CONTACT US</a>
   </div>
 </footer>
-  
-  <div class="scrollUp scrolling">
-    <a href="#top"><i class="fas fa-angle-up"></i></a>
-  </div>
   <!-- external cdn links for scripting files -->
 <!-- bootstrap -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -121,30 +122,5 @@ AHD INDIA is doing projects under Make in India concept by Indian Government. Th
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
 <script src="./assets/js/"></script>
 <script src="./assets/js/custome.js"></script>
-<script src="./assets/js/owl.carousel.min.js"></script>
-
-<script>
-    $(document).ready(function(){
-    $(".owl-carousel").owlCarousel();
-  });
-
-  var owl = $('.owl-carousel');
-  owl.owlCarousel({
-      items:4,
-      loop:true,
-      margin:10,
-      autoplay:true,
-      // autoplay: 2000, // time for slides changes
-      autoplayTimeout:3000,
-      autoplayHoverPause:true
-  });
-  $('.play').on('click',function(){
-      owl.trigger('play.owl.autoplay',[3000])
-  })
-  $('.stop').on('click',function(){
-      owl.trigger('stop.owl.autoplay')
-  })
-</script>
-
 </body>
 </html>

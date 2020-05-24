@@ -9,7 +9,7 @@ $(window).scroll(function(){
     var sticky = $('.stickyLogo'),
         scroll = $(window).scrollTop();
   
-    if (scroll >= 64) sticky.addClass('fixedLogo');
+    if (scroll >= 30) sticky.addClass('fixedLogo');
     else sticky.removeClass('fixedLogo');
 });
 $(window).scroll(function(){

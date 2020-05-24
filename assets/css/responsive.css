@@ -1,49 +1,49 @@
 @media only screen and (min-width: 300px) and (max-width: 360px)  {
-    .dp-container {width: 40%;margin-top: 25%!important}
-    .hd-text-grp h1 {font-size: 1.5rem!important;}
-    .hd-text-container {margin-top: 2rem!important;height: 33px;}
-    .hd-text-container::before{content: "";}
-    .hd-text-container::after{content: "";}
-    #small {display: block;}
-    #wide{display: none;}
+  .navbar-brand img {width: 100%;}
+  .tagLine {padding: 70% 0;}
+  .mainDiv{overflow: visible;}
+  .aboutBodu{padding-top: 0!important;}
+  .Welcome{margin-bottom: 8%;}
+  .cont{margin-top: 5%;}
+  #contactUs{height: 40em;}
+  iframe{width: 260px;height: 160px}
+  .footerNav a{font-size: 14px;}
+  .socialMedia i{font-size: 30px;}
+  .topIconLink{margin-right: 40px;}
 }
 
 @media only screen and (min-width: 361px) and (max-width: 393px)  {
-    .dp-container {width: 40%;margin-top: 25%!important}
-    .hd-text-grp h1 {font-size: 1.5rem!important;}
-    .hd-text-container {margin-top: 2rem!important;height: 33px;}
-    .hd-text-container::before{content: "";}
-    .hd-text-container::after{content: "";}
-    #small {display: block;}
-    #wide{display: none;}
+  .navbar-brand img {width: 100%;}
+  .tagLine {padding: 70% 0;}
+  .mainDiv{overflow: visible;}
+  .aboutBodu{padding-top: 0!important;}
+  .Welcome{margin-bottom: 8%;}
+  .cont{margin-top: 5%;}
+  #contactUs{height: 40em;}
+  iframe{width: 300px;height: 160px}
+  .footerNav a{font-size: 14px;}
+  .topIconLink{margin-right: 130px;}
 }
 
 @media only screen and (min-width: 394px) and (max-width: 480px)  {
-    .dp-container {width: 40%;margin-top: 25%!important}
-    .hd-text-grp h1 {font-size: 1.5rem!important;}
-    .hd-text-container {margin-top: 2rem!important;height: 33px;}
-    .hd-text-container::before{content: "";}
-    .hd-text-container::after{content: "";}
-    #small {display: block;}
-    #wide{display: none;}
+  .navbar-brand img {width: 100%;}
+  .tagLine {padding: 70% 0;}
+  .mainDiv{overflow: visible;}
+  .aboutBodu{padding-top: 0!important;}
+  .Welcome{margin-bottom: 8%;}
+  .cont{margin-top: 5%;}
+  #contactUs{height: 40em;}
+  iframe{width: 300px;height: 160px}
+  .footerNav a{font-size: 14px;}
+  .topIconLink{margin-right: 130px;}
 }
 
 @media only screen and (min-width: 481px) and (max-width: 600px)  {
-    .dp-container {width: 40%;margin-top: 20%!important}
-    .hd-text-grp h1 {font-size: 1.5rem!important;}
-    .hd-text-container {margin-top: 2rem!important;height: 33px;}
-    .hd-text-container::before{content: "";}
-    .hd-text-container::after{content: "";}
-    #small {display: block;}
-    #wide{display: none;}
-  }
+  .navbar-brand img {float: right;width: 50%;}  
+}
 
 @media only screen and (min-width: 601px) and (max-width: 768px)  {
-    .dp-container {width: 25%;margin-top: 10%!important}
-    .hd-text-container::before{content: "";}
-    .hd-text-container::after{content: "";}
-    #small {display: block;}
-    #wide{display: none;}
+    
 }
 
 /* ----------- iPad 1, 2, Mini and Air ----------- */
@@ -108,10 +108,10 @@
   and (min-device-width: 834px) 
   and (max-device-width: 1112px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    .dp-container {width: 20%;margin-top: 5%!important}
-    .hd-text-container::before {left: 10%;top: 44%;}
-    .hd-text-container::after {right: 10%;top: 44%;}
-    #wide {display: block;}
+    iframe{width: 440px;}
+    .tagLine{padding: 25% 0}
+    .nav-link{font-size: 25px;}
+    .tagLine{font-size: 60px;}
 }
 /* ----------- iPad Pro 12.9" ----------- */
 
